@@ -6,8 +6,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
 
-# Make data base, printed on Thu Jul 14 11:37:00 2022
+# Make data base, printed on Thu Jul 14 12:48:11 2022
 
 # Variables
 
@@ -134,7 +135,7 @@ TERM_PROGRAM_VERSION = 443
 # environment
 NVM_DIR = /Users/jackhousego/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.10494904.10494910.4211738C-615B-4AA7-A141-3F9637AE6BC3
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.10494904.10494910.A5A54B03-ABA3-48A6-9737-794F0E9F66F5
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -146,6 +147,7 @@ COMMAND_MODE = unix2003
 # default
 MAKEFILES := 
 # automatic
+ 
 <F = $(notdir $<)
 # environment
 EDITOR = code
@@ -172,7 +174,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 77490
+VSCODE_PID = 84898
 # variable set hash-table stats:
 # Load=81/1024=8%, Rehash=0, Collisions=2/107=2%
 
@@ -182,9 +184,9 @@ VSCODE_PID = 77490
 
 # Directories
 
-# . (device 16777234, inode 10620715): 17 files, no impossibilities.
+# . (device 16777234, inode 10620715): 19 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -312,7 +314,6 @@ clean:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  commands to execute (from `Makefile', line 21):
- 
 	@rm -f */version.txt
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
@@ -358,6 +359,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jul 14 11:37:00 2022
+# Finished Make data base on Thu Jul 14 12:48:11 2022
 
  
