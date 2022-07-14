@@ -1,10 +1,16 @@
-# Data analysis
+# Data cleaning
 - Document here the project: z_pii
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+- Description: Python package to clean and remove Personal Identifiable Information (PII) from a .txt file that is in JSON Lines format.
+- Data Source: The sample dataset is a subset of the [TPC-DS benchmark](http://www.tpc.org/tpc_documents_current_versions/pdf/tpc-ds_v2.5.0.pdf)
+available as sample data in [Snowflake](https://docs.snowflake.com/en/user-guide/sample-data-tpcds.html).
+- params.py:
+  - a params.py file will need to be created with the following format:
+  `file_path_dict = {
+    "FILE_ONE": "raw_data/path_to_text_file.txt",
+    "FILE_TWO": "raw_data/path_to_text_file_2.txt",
+    "SAVED_FILE_PATH": "raw_data/path_to_desired_directory/"
+    }`
 
-Please document the project the better you can.
 
 # Startup the project
 
