@@ -1,6 +1,6 @@
 import jsonlines
 import re
-from params import file_path_dict
+from z_pii.params import file_path_dict
 
 # Path to .txt files in raw_data folder
 FILE_ONE = file_path_dict['FILE_ONE']
@@ -52,7 +52,7 @@ class DataTransformer():
         return {key: val for key, val in data_record.items() if key not in key_to_remove}
 
     def write_to_file(self, saved_file_path):
-        regex = "\d{4}-\d{2}-\d{2}"
+        regex = r"\d{4}-\d{2}-\d{2}"
         file_name = re.search(regex, self.file_path).group(0) # looks for '2021-01-11'
 
         with jsonlines.open(file=f"{saved_file_path + file_name}-TRANSFORMED.txt", mode='w') as f:
