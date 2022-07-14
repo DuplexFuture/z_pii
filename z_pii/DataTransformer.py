@@ -20,19 +20,10 @@ class DataTransformer():
         """
         with jsonlines.open(self.file_path) as f:
             self.data = []
-            count = 0
             for data_record in f.iter():
-                if count == 4:
-                    self.data.append(data_record)
-                else:
-                    data_record = self.remove_name(data_record)
-                    data_record = self.retreive_domain(data_record)
-                    self.data.append(data_record)
-                count += 1
-            # for data_record in f.iter():
-            #     data_record = self.remove_name(data_record)
-            #     data_record = self.retreive_domain(data_record)
-            #     self.data.append(data_record)
+                data_record = self.remove_name(data_record)
+                data_record = self.retreive_domain(data_record)
+                self.data.append(data_record)
 
     def remove_name(self, data_record):
         """
