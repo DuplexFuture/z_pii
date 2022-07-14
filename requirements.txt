@@ -6,7 +6,7 @@ wheel>=0.29
 
 # data science
 jsonlines
-re
+regex
 
 # tests/linter
 black
