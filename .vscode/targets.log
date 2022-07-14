@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Thu Jul 14 12:48:11 2022
+# Make data base, printed on Thu Jul 14 17:51:05 2022
 
 # Variables
 
@@ -30,6 +30,7 @@ HOMEBREW_NO_ANALYTICS = 1
 CURDIR := /Users/jackhousego/code/DuplexFuture/z_pii
 # makefile
 SHELL = /bin/sh
+ 
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -103,7 +104,7 @@ USER = jackhousego
 # makefile
 .DEFAULT_GOAL := install_requirements
 # environment
-TERM_SESSION_ID = 3A6A79F4-0F26-46EE-86C5-643F351DF016
+TERM_SESSION_ID = 731FF90C-2DC7-420D-BDC7-88025CFCF37D
 # environment
 LESS = -R
 # automatic
@@ -135,7 +136,7 @@ TERM_PROGRAM_VERSION = 443
 # environment
 NVM_DIR = /Users/jackhousego/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.10494904.10494910.A5A54B03-ABA3-48A6-9737-794F0E9F66F5
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.10494904.10494910.1EA73E64-F95A-4A53-90C3-F5CCCDEF71F2
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -147,7 +148,6 @@ COMMAND_MODE = unix2003
 # default
 MAKEFILES := 
 # automatic
- 
 <F = $(notdir $<)
 # environment
 EDITOR = code
@@ -174,7 +174,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 84898
+VSCODE_PID = 3551
 # variable set hash-table stats:
 # Load=81/1024=8%, Rehash=0, Collisions=2/107=2%
 
@@ -184,9 +184,9 @@ VSCODE_PID = 84898
 
 # Directories
 
-# . (device 16777234, inode 10620715): 19 files, no impossibilities.
+# . (device 16777234, inode 10620715): 21 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -342,6 +342,7 @@ install:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  commands to execute (from `Makefile', line 29):
 	@pip install . -U
 	
@@ -359,6 +360,6 @@ install:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jul 14 12:48:11 2022
+# Finished Make data base on Thu Jul 14 17:51:05 2022
 
  
