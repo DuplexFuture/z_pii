@@ -1,5 +1,5 @@
-from z_pii.DataTransformer import DataTransformer
 import jsonlines
+from z_pii.DataTransformer import DataTransformer
 
 # Path to .txt files in tests folder
 FILE_PATH = "tests/test_data_9999-99-99.txt"
@@ -47,6 +47,3 @@ def test_length_file():
         for data_record in f.iter(): #dictionary
             raw_data.append(data_record)
     assert len(raw_data) == len(loader_class.data)
-
-# if __name__ == "__main__":
-#     test_absence_of_first_name()

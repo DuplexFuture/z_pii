@@ -7,7 +7,6 @@ FILE_ONE = file_path_dict['FILE_ONE'] # path to file to transform  e.g., "raw_da
 FILE_TWO = file_path_dict['FILE_TWO']
 SAVED_FILE_PATH = file_path_dict['SAVED_FILE_PATH'] # path to directory to save transformed data e.g., "raw_data/..."
 
-
 class DataTransformer():
 
     def __init__(self, file_path):
@@ -66,3 +65,7 @@ if __name__ == "__main__":
     data_transformer = DataTransformer(FILE_ONE)
     data_transformer.load_transform_data()
     data_transformer.write_to_file(SAVED_FILE_PATH)
+
+    data_transformer_2 = DataTransformer(FILE_TWO)
+    data_transformer_2.load_transform_data()
+    data_transformer_2.write_to_file(SAVED_FILE_PATH)
