@@ -4,7 +4,7 @@
 - Data Source: The sample dataset is a subset of the [TPC-DS benchmark](http://www.tpc.org/tpc_documents_current_versions/pdf/tpc-ds_v2.5.0.pdf)
 available as sample data in [Snowflake](https://docs.snowflake.com/en/user-guide/sample-data-tpcds.html).
 - params.py:
-  - a params.py file will need to be created with the following format:
+  - ensure params.py has the following format:
   `file_path_dict = {
     "FILE_ONE": "raw_data/path_to_text_file.txt",
     "FILE_TWO": "raw_data/path_to_text_file_2.txt",
